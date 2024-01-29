@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('https://th.bing.com/th/id/R.8746408da3105807e80b8ea0646c2db7?rik=bp3rS5nRPjVXUA&pid=ImgRaw&r=0');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ff4d4d; /* Color de texto rojo casi rosado */
+  }
+  
+  #mensaje {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .texto-amor {
+    font-family:'Times New Roman', Times, serif; /* Cambia 'Cursive' por la fuente que prefieras */
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .corazon {
+    font-size: 150px;
+    color: #ff4d4d;
+    animation: latido 1s infinite alternate;
+  }
+  
+  @keyframes latido {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  

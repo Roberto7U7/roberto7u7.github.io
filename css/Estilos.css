@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('https://th.bing.com/th/id/R.5c1b772f21573b4186f5504325d410cc?rik=%2fG2w3lqHvCwJtA&riu=http%3a%2f%2f2.bp.blogspot.com%2f_Nm6YaTQVsq4%2fS9RbZm5dNII%2fAAAAAAAABDI%2fGr0w7s2Hugk%2fs1600%2fhubble-saturno.jpg&ehk=6v20VyXH%2fuaHOVjvtNSEOBVGf1HHLZKKJowtnEaIrNQ%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #mensaje {
+    background-color: #aaaaaacc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 211, 218);
+  }
+  
+  #botonSi, #botonNo {
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #botonNo {
+    background-color: #ff6666;
+    color: #fff;
+  }
+  
+  #botonSi {
+    background-color: #66cc66;
+    color: #fff;
+  }
+  
+  #botonNo:hover {
+    background-color: #ff3333;
+  }
+  
+  #botonSi:hover {
+    background-color: #339933;
+  }
+  
+  #botonNo.mover {
+    transition: transform 1s ease;
+  }
+  
